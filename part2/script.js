@@ -11,7 +11,7 @@ for (var i = 0; i < arr.length; i++) {
 		alert("Ошибка, введите Имя еще раз");
 		console.log('Обновите страницу и введите Имя еще раз')
 	}
-	break;
+	//break;
 }
 
 
