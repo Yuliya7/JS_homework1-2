@@ -1,17 +1,16 @@
-﻿var arr = ['Анна', 'Александр', 'Юлия', 'Евгений', 'Илья', 'Злата'];
+﻿var arr = [];
+for (var i = 0; i < 5; i++) { 
+  arr[i] = prompt('Введите Ваше имя?', '');
+}
+var userName = prompt('Введите Имя пользователя?');
 
-for (var i = 0; i < arr.length; i++) {
-
-	var enter = prompt ("Введите имя пользователя");
-
-	if (arr.indexOf(enter) != -1) {
-		alert(enter + ", Вы успешно вошли!");
+	if (arr.indexOf(userName) != -1) {
+		alert(userName + ", Вы успешно вошли!");
 	} 
 	else {
 		alert("Ошибка, введите Имя еще раз");
-		console.log('Обновите страницу и введите Имя еще раз')
-	}
-	//break;
-}
-
+			}
+console.log(arr);
+console.log(userName);
+console.log('Обновите страницу и введите "Имя пользователя" еще раз')
 
